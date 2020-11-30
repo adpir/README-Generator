@@ -7,7 +7,7 @@
 ## Author : Alice
 
 ## License : 
-![GitHub license](https://img.shields.io/badge/license-MIT License-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 
 ## Table of Contents 
@@ -23,13 +23,13 @@
 * [Profile](#Profile)
 
  ## Usage
-free
+Free to use
 
 ## Installation
-npm
+npm i
 
 ## Test
-manual
+Manual
 
 ## Contact 
 If you have any questions please send me an email adpir30@gmail.com

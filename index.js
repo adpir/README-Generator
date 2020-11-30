@@ -113,7 +113,10 @@ If you have any questions please send me an email ${response.email}
     
     `
     console.log(readMeText);
-    
+    fs.writeFileSync("README.md",readMeText, (error) => {
+        if(error)throw error;
+        console.log("fileGernerator")
+    })   
   }) 
   .catch(error => {
       console.log(error);

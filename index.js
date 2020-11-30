@@ -1,5 +1,10 @@
-const inquirer = requirer('inquirer');
+const inquirer = require('inquirer');
+// How to write a file
+const fs =require ('fs');
 
+const generateMarkdown = require('./Develop/generateMarkdown.js');
+
+// Array of questions for the user
 inquirer
 .prompt ( [
   {
@@ -12,19 +17,19 @@ inquirer
       name:"description",
       message:"Please enter the description of your project?"
   },
-  {
-      type:"list",
-      name:"table of contents",
-      message:"",
-      choices:[
-         "Installation",
-         "Usage",
-         "license",
-         "Badges",
-         "Contributing",
-         "Test"
-      ]
-  },
+//   {
+//       type:"list",
+//       name:"table of contents",
+//       message:"",
+//       choices:[
+//          "Installation",
+//          "Usage",
+//          "license",
+//          "Badges",
+//          "Contributing",
+//          "Test"
+//       ]
+//   },
    {
        type:"input ",
        name:"installation",
@@ -56,26 +61,48 @@ inquirer
        name:"test",
        message:"What type of command the user need to used to run test?",
        
-   }
+   },
+   {
+       type:"input",
+       name:"badges",
+       message:"Please add your badges information here. For more information go to this Link:https://shields.io"
+   },
     
 ])
 .then(response => {
-    console.log(response)
-    // response.license=== mit license  { add not text to readme }
+    console.log("Great, job",response);
+    fs.writeFile("generateMarkdown",generateMarkdown, console.log("File"))
+    
+//     // response.license=== mit license  { add not text to readme }
+    
 })
+ .catch (error => {
+     if (error.ReadmeErr ){
+         
+
+     } else {
+        console.log("try again") ;
+     }
+     
+     
+ });
 // array of questions for user
 // const questions = [
 
 // ];
 
 // function to write README file
-function writeToFile(fileName, data) {
-}
+// function writeToFile(fileName, data) {
+//     fs.writeFile(
 
-// function to initialize program
-function init() {
 
-}
+//     // console.log(generateMarkdown ());
+// }
 
-// function call to initialize program
-init();
+// // function to initialize program
+// function init() {
+
+// }
+
+// // function call to initialize program
+// init();

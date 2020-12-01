@@ -2,8 +2,6 @@ const inquirer = require("inquirer");
 // How to write a file
 const fs = require("fs");
 
-// const generateMarkdown = require('./Develop/generateMarkdown.js');
-
 // Array of questions for the user
 inquirer
   .prompt([
@@ -17,19 +15,7 @@ inquirer
       name: "description",
       message: "Please enter the description of your project?",
     },
-    //   {
-    //       type:"list",
-    //       name:"table of contents",
-    //       message:"",
-    //       choices:[
-    //          "Installation",
-    //          "Usage",
-    //          "Badges",
-    //          "Contributing",
-    //          "Test",license"
-
-    //       ]
-    //   },
+    
     {
       type: "input ",
       name: "installation",
@@ -71,7 +57,7 @@ inquirer
   ])
   .then((response) => {
     console.log(response);
-    var readMeText= `
+    let readMeText= `
 # Project Title : ${response.title}
 
 ## Description : ${response.description}
@@ -124,28 +110,4 @@ If you have any questions please send me an email ${response.email}
     
 
 
-//     fs.writeFile("generateMarkdown",generateMarkdown, console.log("File"))
-//     // response.license=== MIT.license
-//     // ? console.log("add not text to readMe")
 
-// })
-
-// array of questions for user
-// const questions = [
-
-// ];
-
-// function to write README file
-// function writeToFile(fileName, data) {
-//     fs.writeFile(
-
-//     // console.log(generateMarkdown ());
-// }
-
-// // function to initialize program
-// function init() {
-
-// }
-
-// // function call to initialize program
-// init();

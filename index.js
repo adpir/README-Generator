@@ -58,9 +58,9 @@ inquirer
   .then((response) => {
     console.log(response);
     let readMeText= `
-# Project Title : ${response.title}
+#${response.title}
 
-## Description : ${response.description}
+### Description : ${response.description}
 
 
 ## Author : ${response.contribution}
@@ -82,7 +82,7 @@ inquirer
 * [Profile](#Profile)
 
  ## Usage
- ![images](./images/gif.gif${response.usage}) 
+ ![Giphy](./images/gif.gif${response.usage}) 
 
 ## Installation
 ${response.installation}

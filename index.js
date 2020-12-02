@@ -36,8 +36,8 @@ inquirer
     {
       type: "input",
       name: "contribution",
-      message:
-        "Please provided the user contribution repo?",
+      message:"Please provided the user contribution repo?",
+        
     },
     {
       type: "input",
@@ -58,14 +58,14 @@ inquirer
   .then((response) => {
     console.log(response);
     let readMeText= `
-#${response.title}
+${response.title}
 
 ### Description : ${response.description}
 
 
 ## Author : ${response.contribution}
 
-## License : 
+## License
 ![GitHub license](https://img.shields.io/badge/license-${response.license}-blue.svg)
 
 
@@ -82,7 +82,10 @@ inquirer
 * [Profile](#Profile)
 
  ## Usage
- ![Giphy](./images/gif.gif${response.usage}) 
+ ![Giphy](images/gif.gif) 
+ ${response.usage}
+ 
+
 
 ## Installation
 ${response.installation}

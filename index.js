@@ -63,20 +63,17 @@ inquirer
     console.log(response);
     let readMeText = `
 
-# Title : ${response.title}
-![GitHub license](https://img.shields.io/badge/license-blue.svg)
+# Title : ![GitHub license](https://img.shields.io/badge/license-${response.title}-blue.svg)
 
-***
-### Description : 
-***
+
+## Description : 
 ${response.description}
 
 
 ## Author : ${response.author}
-***
+
 
 ## Table of Contents 
-***
 
 * [Usage](#Usage)
 
@@ -89,44 +86,44 @@ ${response.description}
 * [Profile](#Profile)
 
  ## Usage:
- ***
  ${response.usage}
 
 
- :camera: ## Visuals:
- ***
+ ## :camera: Visuals:
+
  ![Giphy](images/gif.gif)<br>
  ![Giphy](images/jso.gif)<br>
- ![Images](images/Package.PNG)
+ ![images](images/Package.png)
  
 
 
 ## Installation:
-***
+
 ${response.installation}
 
 
 ## Contributing:
-***
+
 ${response.contributing}
 
 
 ## Test:
-***
+
 ${response.test}
 
 
 ## License :copyright:
-${response.license}
+[License] (ReadMe/LICENSE ${response.license})
+ 
 
 
 ## Contact:
-***
+
 If you have any questions please send me an email ${response.email}
 
 
 ## Profile:
-***
+
 [GitHub](https://github.com/adpir?tab=repositories)
     
     `;

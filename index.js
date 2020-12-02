@@ -15,7 +15,7 @@ inquirer
       name: "description",
       message: "Please enter the description of your project?",
     },
-    
+
     {
       type: "input ",
       name: "installation",
@@ -31,13 +31,12 @@ inquirer
       type: "list",
       name: "license",
       message: "What type of license do you used?",
-      choices: ["MIT", "Apache 2.0", "GNU","ISC","Unlicense"],
+      choices: ["MIT", "Apache 2.0", "GNU", "ISC", "Unlicense"],
     },
     {
       type: "input",
       name: "contributing",
-      message:"Do you allow another user to contribute to your repo?",
-        
+      message: "Do you allow another user to contribute to your repo?",
     },
     {
       type: "input",
@@ -59,28 +58,25 @@ inquirer
       name: "author",
       message: "What is the author of this repo?",
     },
-
-
-
   ])
   .then((response) => {
     console.log(response);
-    let readMeText= `
-## Title : ${response.title}
-======================
+    let readMeText = `
 
-## License
-![GitHub license](https://img.shields.io/badge/license-${response.license}-blue.svg)
-======================
+# Title : ${response.title}
+![GitHub license](https://img.shields.io/badge/license-blue.svg)
 
+***
 ### Description : 
+***
 ${response.description}
-======================
+
 
 ## Author : ${response.author}
-======================
+***
 
 ## Table of Contents 
+***
 
 * [Usage](#Usage)
 
@@ -92,46 +88,54 @@ ${response.description}
 
 * [Profile](#Profile)
 
- ## Usage
+ ## Usage:
+ ***
  ${response.usage}
- ======================
 
- ## Visuals
+
+ :camera: ## Visuals:
+ ***
  ![Giphy](images/gif.gif)<br>
-========================
+ ![Giphy](images/jso.gif)<br>
+ ![Images](images/Package.PNG)
+ 
 
-## Installation
+
+## Installation:
+***
 ${response.installation}
-========================
 
-## Contributing
+
+## Contributing:
+***
 ${response.contributing}
 
-## Test
+
+## Test:
+***
 ${response.test}
-========================
 
 
-## Contact 
+## License :copyright:
+${response.license}
+
+
+## Contact:
+***
 If you have any questions please send me an email ${response.email}
-========================
 
 
-## Profile
-=======================
+## Profile:
+***
 [GitHub](https://github.com/adpir?tab=repositories)
     
-    `
+    `;
     console.log(readMeText);
-    fs.writeFileSync("README.md",readMeText, (error) => {
-        if(error)throw error;
-        console.log("fileGernerator")
-    })   
-  }) 
-  .catch(error => {
-      console.log(error);
+    fs.writeFileSync("README.md", readMeText, (error) => {
+      if (error) throw error;
+      console.log("fileGernerator");
+    });
   })
-    
-
-
-
+  .catch((error) => {
+    console.log(error);
+  });

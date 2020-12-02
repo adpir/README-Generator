@@ -35,8 +35,8 @@ inquirer
     },
     {
       type: "input",
-      name: "contribution",
-      message:"Please provided the user contribution repo?",
+      name: "contributing",
+      message:"Do you allow another user to contribute to your repo?",
         
     },
     {
@@ -54,20 +54,31 @@ inquirer
       name: "GitHub",
       message: "What is your GitHub Username?",
     },
+    {
+      type: "input",
+      name: "author",
+      message: "What is the author of this repo?",
+    },
+
+
+
   ])
   .then((response) => {
     console.log(response);
     let readMeText= `
-${response.title}
-
-### Description : ${response.description}
-
-
-## Author : ${response.contribution}
+## Title : ${response.title}
+======================
 
 ## License
 ![GitHub license](https://img.shields.io/badge/license-${response.license}-blue.svg)
+======================
 
+### Description : 
+${response.description}
+======================
+
+## Author : ${response.author}
+======================
 
 ## Table of Contents 
 
@@ -82,22 +93,32 @@ ${response.title}
 * [Profile](#Profile)
 
  ## Usage
- ![Giphy](images/gif.gif) 
  ${response.usage}
- 
+ ======================
 
+ ## Visuals
+ ![Giphy](images/gif.gif)<br>
+========================
 
 ## Installation
 ${response.installation}
+========================
+
+## Contributing
+${response.contributing}
 
 ## Test
 ${response.test}
+========================
+
 
 ## Contact 
 If you have any questions please send me an email ${response.email}
+========================
+
 
 ## Profile
-
+=======================
 [GitHub](https://github.com/adpir?tab=repositories)
     
     `

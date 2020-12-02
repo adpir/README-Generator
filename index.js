@@ -82,7 +82,7 @@ inquirer
 * [Profile](#Profile)
 
  ## Usage
-${response.usage}
+ ![images](./images/gif.gif${response.usage}) 
 
 ## Installation
 ${response.installation}

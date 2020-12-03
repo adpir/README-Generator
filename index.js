@@ -70,12 +70,16 @@ inquirer
 ${response.description}
 
 
-# Author : ${response.author}
+### Author : ${response.author}
 
 
-## Table of Contents 
+### Table of Contents 
 
 * [Usage](#Usage)
+
+* [Visuals](#Visuals)
+
+* [Badges](#Badges)
 
 * [Installation](#Installation)
 
@@ -85,44 +89,49 @@ ${response.description}
 
 * [Profile](#Profile)
 
- ## Usage:
+ ### Usage:
  ${response.usage}
 
 
- ## :camera: Visuals:
+ ### :camera: Visuals:
 
  ![Giphy](images/gif.gif)<br>
  ![Giphy](images/jso.gif)<br>
  ![images](images/Package.png)
+
+
+ ### Badges
+![Languages]![Language](https://img.shields.io/badge/Languages-HTML,CSS,Jquery,Nodes-blueviolet.svg)<br>
  
 
 
-## Installation:
+### Installation:
 
 ${response.installation}
 
 
-## Contributing:
+### Contributing:
 
 ${response.contributing}
 
 
-## Test:
+### Test:
 
 ${response.test}
 
 
-## License :copyright:
-[License] (ReadMe/LICENSE ${response.license})
+### License :copyright:
+
+![License](https://github.com/adpir/ReadMe/blob/main/LICENSE${response.license})
  
 
 
-## Contact:
+### Contact:
 
-If you have any questions please send me an email ${response.email}
+If you have any questions please contact me at ${response.email}
 
 
-## Profile:
+### :octocat: Profile:
 
 [GitHub](https://github.com/adpir?tab=repositories)
     

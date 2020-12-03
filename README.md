@@ -1,21 +1,22 @@
 
 
-# Title : README Generator
-![GitHub license](https://img.shields.io/badge/license-blue.svg)
-
-***
-### Description : 
-***
-The goal of this project is to create a high-quality README Generator app. On this professional README, the user will know how to use the app, install it, report any issues and contribute. My motivation for building this generate app was to create an app using new programming as node.js, using inline characters such as backtick, functions, prompt and responses.
+# Title : ![GitHub license](https://img.shields.io/badge/license-<h1 align="center"> _**README Generator**_</h1>-blue.svg)
 
 
-## Author : Alice
-***
+## Description : 
+The goal of this project is to create a high quality **README Generator app**. On this professional **README**, the user will know how to *use* the app, *install it*, *report* any issues and *contribute*. My motivation for buiding this app was to create an app using new programming skills such as node.js, using an inline characters such as ```backtick```, functions, prompts and responses. 
 
-## Table of Contents 
-***
+
+### Author : Alice Piar
+
+
+### Table of Contents 
 
 * [Usage](#Usage)
+
+* [Visuals](#Visuals)
+
+* [Badges](#Badges)
 
 * [Installation](#Installation)
 
@@ -25,45 +26,50 @@ The goal of this project is to create a high-quality README Generator app. On th
 
 * [Profile](#Profile)
 
- ## Usage:
- ***
- The application will be invoke by using the following command node index.js
+ ### Usage:
+ ```node index.js```
 
 
- :camera: ## Visuals:
- ***
+ ### :camera: Visuals:
+
  ![Giphy](images/gif.gif)<br>
  ![Giphy](images/jso.gif)<br>
- ![Images](images/Package.PNG)
+ ![images](images/Package.png)
+
+
+ ### Badges
+![Languages]![Language](https://img.shields.io/badge/Languages-HTML,CSS,Jquery,Nodes-blueviolet.svg)<br>
  
 
 
-## Installation:
-***
-To make a command-line application that dynamically generates a professional README file, the user needs to install the NPM know as ( Node Package manager) from the user's input using the inquirer package. here are some guidelines on how to create a README generator. Create a .gitignore file and include ```node_modules``` and /DS_Store so that your node_modules directory isn't tracked or unploaded to Github. Remember to create a .gitignore file before installing any npm dependencies/ Make sure that your repo includes a package.json with the require dependencies. cCreate one by running npm initwhen you first set up the project before installling any dependencies. 
+### Installation:
+
+To make a command-line application that dynamically generate a professional **README** file, the user need to install the ```npm``` know as (**Node Package Manager**) from the user's input using the ```inquirer package```. Here is some guidelines on how to create a README Generator: Create a ```.gitignore file``` and ```.DS_Store``` so that your ```node_modules``` directory isn't tracked or uploaded to GitHub. Rememeber to create a ```.gitignore file``` before installing any ```npm``` dependencies. Make sure that your repo includes a ```package.json```. Create one by running ```npm init``` when you first set up the project.  
 
 
-## Contributing:
-***
-Yes, Pull request are welcome
+### Contributing:
+
+Yes! Pull request are welcome. For major changes please open an issue first to discuss what you would like to change. Please make sure to update test as appropriate.
 
 
-## Test:
-***
-npm install
+### Test:
+
+```npm install```
 
 
-## License :copyright:
-MIT
+### License :copyright:
+
+![License](https://github.com/adpir/ReadMe/blob/main/LICENSEMIT)
+ 
 
 
-## Contact:
-***
-If you have any questions please send me an email adpir30@gmail.com
+### Contact:
+
+If you have any questions please contact me at adpir30@gmail.com
 
 
-## Profile:
-***
+### :octocat: Profile:
+
 [GitHub](https://github.com/adpir?tab=repositories)
     
     

@@ -70,7 +70,7 @@ inquirer
 ${response.description}
 
 
-## Author : ${response.author}
+# Author : ${response.author}
 
 
 ## Table of Contents 

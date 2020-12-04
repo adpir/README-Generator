@@ -1,6 +1,6 @@
 
 
-<h1 align="center">_**ReadMe Generator**_</h1>
+#Title: <h1 align="center">***README Generator***</h1>
  
 
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)

@@ -63,7 +63,7 @@ inquirer
     console.log(response);
     let readMeText = `
 
-${response.title}
+#Title: ${response.title}
  
 
 ![license](https://img.shields.io/badge/license-${response.license}-blue.svg)

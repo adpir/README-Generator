@@ -1,9 +1,9 @@
 
 
-test
+<h1 align="center"> _**Readme**_</h1>
  
 
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
+![license](https://img.shields.io/badge/license-MITMIT-blue.svg)
 ![Language](https://img.shields.io/badge/Languages-HTML,CSS,Jquery,Nodes-violet.svg)
 ![Command-line](https://img.shields.io/badge/Command-line-blueviolet.svg)
 ![npm](https://img.shields.io/badge/npm-red.svg)
@@ -59,8 +59,8 @@ test
 
 ### :copyright: License
 
-MIT
-[](https://github.com/adpir/README-Generator/blob/main/LICENSE)
+
+[MIT](https://github.com/adpir/README-Generator/blob/main/LICENSE)
 
 
 ### Contact:

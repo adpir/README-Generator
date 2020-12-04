@@ -63,7 +63,7 @@ inquirer
     console.log(response);
     let readMeText = `
 
-# Title  ${response.title}
+${response.title}
  
 
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -91,7 +91,6 @@ ${response.description}
 * [Contact](#Contact)
 
 * [Profile](#Profile)
-
 
 
  ### Usage:
@@ -124,7 +123,7 @@ ${response.test}
 ### :copyright: License
 
 ${response.license}
-[MIT](https://github.com/adpir/README-Generator/blob/main/LICENSE)
+[](https://github.com/adpir/README-Generator/blob/main/LICENSE)
 
 
 ### Contact:

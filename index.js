@@ -17,7 +17,7 @@ inquirer
     },
 
     {
-      type: "input ",
+      type: "input",
       name: "installation",
       message: "What type of installation you used for your project?!",
     },
@@ -63,8 +63,13 @@ inquirer
     console.log(response);
     let readMeText = `
 
-# Title : ![GitHub license](https://img.shields.io/badge/license-${response.title}-blue.svg)
+# Title  ${response.title}
+ 
 
+![license](https://img.shields.io/badge/license-MIT-blue.svg)
+![Language](https://img.shields.io/badge/Languages-HTML,CSS,Jquery,Nodes-violet.svg)
+![Command-line](https://img.shields.io/badge/Command-line-blueviolet.svg)
+![npm](https://img.shields.io/badge/npm-red.svg)
 
 ## Description : 
 ${response.description}
@@ -79,8 +84,6 @@ ${response.description}
 
 * [Visuals](#Visuals)
 
-* [Badges](#Badges)
-
 * [Installation](#Installation)
 
 * [Test](#Test)
@@ -89,22 +92,20 @@ ${response.description}
 
 * [Profile](#Profile)
 
+
+
  ### Usage:
+
  ${response.usage}
 
 
- ### :camera: Visuals:
-
- ![Giphy](images/gif.gif)<br>
- ![Giphy](images/jso.gif)<br>
- ![images](images/Package.png)
-
-
- ### Badges
-![Languages]![Language](https://img.shields.io/badge/Languages-HTML,CSS,Jquery,Nodes-blueviolet.svg)<br>
+### Visuals:
  
+![Giphy](images/gif.gif)<br>
+![Giphy](images/jso.gif)<br>
+![image](images/license.png)
 
-
+ 
 ### Installation:
 
 ${response.installation}
@@ -120,10 +121,10 @@ ${response.contributing}
 ${response.test}
 
 
-### License :copyright:
+### :copyright: License
 
-![License](https://github.com/adpir/ReadMe/blob/main/LICENSE${response.license})
- 
+${response.license}
+[MIT](https://github.com/adpir/README-Generator/blob/main/LICENSE)
 
 
 ### Contact:
@@ -139,7 +140,7 @@ If you have any questions please contact me at ${response.email}
     console.log(readMeText);
     fs.writeFileSync("README.md", readMeText, (error) => {
       if (error) throw error;
-      console.log("fileGernerator");
+      console.log("fileGenerator");
     });
   })
   .catch((error) => {

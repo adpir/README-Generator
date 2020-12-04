@@ -66,7 +66,7 @@ inquirer
 ${response.title}
  
 
-![license](https://img.shields.io/badge/license-MIT${response.license}-blue.svg)
+![license](https://img.shields.io/badge/license-${response.license}-blue.svg)
 ![Language](https://img.shields.io/badge/Languages-HTML,CSS,Jquery,Nodes-violet.svg)
 ![Command-line](https://img.shields.io/badge/Command-line-blueviolet.svg)
 ![npm](https://img.shields.io/badge/npm-red.svg)

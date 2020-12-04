@@ -90,8 +90,6 @@ ${response.description}
 
 * [Contact](#Contact)
 
-* [Profile](#Profile)
-
 
  ### Usage:
 
@@ -102,7 +100,7 @@ ${response.description}
  
 ![Giphy](images/gif.gif)<br>
 ![Giphy](images/jso.gif)<br>
-![image](images/license.png)
+![image](images/readme.png)
 
  
 ### Installation:

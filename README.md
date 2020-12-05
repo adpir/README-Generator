@@ -1,6 +1,6 @@
 
 
- readme
+ test
  
 
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -38,7 +38,7 @@
 ![Giphy](images/gif.gif)<br>
 ![Giphy](images/jso.gif)<br>
 ![image](images/readme.png)<br>
-![Video](images/Readme_Generator.mp4)
+![link](https://drive.google.com/file/d/1ehaAl0BbAGC59_lVmRVgO_JONV2Qs9vg/view?usp=sharing)
 
  
 ### Installation:

@@ -63,7 +63,7 @@ inquirer
     console.log(response);
     let readMeText = `
 
-#Title: ${response.title}
+ ${response.title}
  
 
 ![license](https://img.shields.io/badge/license-${response.license}-blue.svg)
@@ -100,7 +100,8 @@ ${response.description}
  
 ![Giphy](images/gif.gif)<br>
 ![Giphy](images/jso.gif)<br>
-![image](images/readme.png)
+![image](images/readme.png)<br>
+![Video](https://drive.google.com/file/d/1L9q1O3jtoGaa-UiK12JqNVU3Jq4YLfAz/view)
 
  
 ### Installation:

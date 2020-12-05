@@ -1,6 +1,6 @@
 
 
-  readme
+ <h1 align="center">***ReadME Generator***</h1>
  
 
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -31,6 +31,7 @@
  ### Usage:
 
  
+ [link](https://drive.google.com/file/d/1ehaAl0BbAGC59_lVmRVgO_JONV2Qs9vg/view?usp=sharing)
 
 
 ### Visuals:
@@ -38,7 +39,7 @@
 ![Giphy](images/gif.gif)<br>
 ![Giphy](images/jso.gif)<br>
 ![image](images/readme.png)<br>
-![link](https://drive.google.com/file/d/1ehaAl0BbAGC59_lVmRVgO_JONV2Qs9vg/view?usp=sharing)
+
 
  
 ### Installation:

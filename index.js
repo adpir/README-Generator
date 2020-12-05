@@ -94,6 +94,7 @@ ${response.description}
  ### Usage:
 
  ${response.usage}
+ [link](https://drive.google.com/file/d/1ehaAl0BbAGC59_lVmRVgO_JONV2Qs9vg/view?usp=sharing)
 
 
 ### Visuals:
@@ -101,7 +102,7 @@ ${response.description}
 ![Giphy](images/gif.gif)<br>
 ![Giphy](images/jso.gif)<br>
 ![image](images/readme.png)<br>
-![link](https://drive.google.com/file/d/1ehaAl0BbAGC59_lVmRVgO_JONV2Qs9vg/view?usp=sharing)
+
 
  
 ### Installation:
